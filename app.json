@@ -1,8 +1,9 @@
 {
   "expo": {
     "name": "Kasvit",
-    "slug": "Kasvit",
+    "slug": "kasvit",
     "version": "1.0.0",
+    "owner": "tsaarika",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -12,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/11cc263c-0b42-46a3-9958-60154b8cb31a"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tsaarika.kasvit"
     },
     "android": {
       "adaptiveIcon": {
@@ -28,6 +31,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "11cc263c-0b42-46a3-9958-60154b8cb31a"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
     }
   }
 }
