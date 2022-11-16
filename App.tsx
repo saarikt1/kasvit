@@ -1,14 +1,7 @@
-import {Button, StyleSheet, Text, View} from 'react-native';
-import {useState} from "react";
+import {StyleSheet, Text, View} from 'react-native';
 import Kasvi from "./Kasvi"
 
 export default function App() {
-    const [time, setTime] = useState(new Date())
-
-    const updateTimestamp = () => {
-        setTime(new Date())
-    }
-
 
     return (
         <View style={styles.container}>
